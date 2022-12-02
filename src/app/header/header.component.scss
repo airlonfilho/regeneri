@@ -1,0 +1,227 @@
+@import './../../styles.scss';
+
+header {
+  padding-top: 20px;
+  margin: 0 50px;
+}
+
+.mini-buttons {
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  margin-right: 2.7vw;
+}
+
+.mini-buttons a {
+  text-decoration: none;
+  color: $green;
+  font-family: Roboto, sans-serif;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.nav .menu ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 3vw;
+}
+
+.nav .menu a {
+  text-decoration: none;
+  color: $menu-text;
+  margin-right: 3vw;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-left: 2vw;
+}
+
+.buttons button {
+  background-color: $green-bold;
+  color: $text-white;
+  border: none;
+  margin-left: 2vw;
+  padding: 20px 20px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mini-buttons,
+  .menu,
+  .buttons {
+    display: none;
+  }
+
+  header {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+  }
+
+}
+
+.navbar{
+  width: 100%;
+  height: 72px;
+  margin-top: 50px;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand{
+  margin-left: 100px;
+  margin-top: 1px;
+}
+
+.navbar-nav {
+  overflow: hidden;
+}
+
+.navbar-nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+}
+
+
+.navbar-nav a:hover {
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.card-telefone {
+  width: 273px;
+  height: 87px;
+  background: #DCA946;
+  border-radius: 9px;
+  color: white;
+  font-weight: 400;
+}
+
+.ligue {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.active {
+  color: #5A937C !important;
+  font-weight: 600;
+}
+
+.nav-responsivo, .navbar-brand-responsivo, .logo-responsivo, .card-telefone-responsivo, .icon-hamburger, .sideNav  {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+  .navbar-nav, .nav-right, .navbar, .navbar-brand, .logo {
+      display: none;
+  }
+
+  .nav-responsivo{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-left: 24px;
+      margin-top: 24px;
+  }
+
+  .navbar-brand-responsivo {
+      margin-right: -20vw;
+      display: flex;
+      margin-left: 5vw;
+      justify-content: start;
+  }
+
+  .logo-responsivo{
+      width: 80%;
+      display: flex;
+  }
+
+  .icon-hamburger {
+      margin-left: 2vw;
+      margin-right: 4vw;
+      display: flex;
+      margin-top: 20px;
+  }
+
+  .icon-hamburger img {
+    width: 32px;
+  }
+
+  .sideNav {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: $green;
+      z-index: 9999;
+  }
+
+  .close {
+      width: 100%;
+      height: 20px;
+      margin-top: 20px;
+      padding-right: 30px;
+      display: flex;
+      justify-content: end;
+      color: #FBFBFB;
+  }
+
+  .menuNav {
+      color: #FBFBFB;
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 50px;
+      padding-left: 20px;
+      margin-right: 10px;
+      min-width: 220px;
+  }
+
+  ul li {
+      list-style: none;
+      margin-top: 15px;
+      font-family: Roboto, sans-serif;
+  }
+
+  ul a {
+      text-decoration: none;
+      color: #FBFBFB;
+  }
+
+  .active {
+      color: #FBFBFB !important;
+  }
+}
