@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { TerapiaOndasComponent } from './terapia-ondas/terapia-ondas.component';
 import { FisioterapiaComponent } from './fisioterapia/fisioterapia.component';
 import { RouterModule } from '@angular/router';
+import { AcupunturaComponent } from './acupuntura/acupuntura.component';
+import { EspecialidadeComponent } from './especialidade/especialidade.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     FooterComponent,
     TerapiaOndasComponent,
-    FisioterapiaComponent
+    FisioterapiaComponent,
+    AcupunturaComponent,
+    EspecialidadeComponent
   ],
   imports: [
     BrowserModule,

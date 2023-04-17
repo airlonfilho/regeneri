@@ -18,12 +18,12 @@
         <li><a href="#quemsomos">quem somos ></a></li>
         <li><a href="#" [routerLink]="['/fisioterapia']" [routerLinkActive]="['active']">Fisioterapia especializada ></a></li>
         <li><a href="#" [routerLink]="['/terapia']" [routerLinkActive]="['active']">Terapia por ondas de choque ></a></li>
+        <li><a href="#" [routerLink]="['/acupuntura']" [routerLinkActive]="['active']">Acupuntura ></a></li>
       </ul>
     </div>
 
     <div class="buttons">
-      <button> Medicina regenerativa</button>
-      <button> Especialidades médicas</button>
+      <button [routerLink]="['/especialidade']"> Medicina regenerativa e Ortopedia </button>
     </div>
   </div>
 </header>
@@ -51,6 +51,12 @@
               <a href="" (click)="openNav()" [routerLink]="['/terapia']" [routerLinkActive]="['active']">
                   <li> Terapia por ondas de Choque </li>
               </a>
+              <a href="" (click)="openNav()" [routerLink]="['/acupuntura']" [routerLinkActive]="['active']">
+                <li> Acupuntura </li>
+            </a>
+            <a href="" (click)="openNav()" [routerLink]="['/especialidade']" [routerLinkActive]="['active']">
+              <li> Medicina regenerativa e Ortopedia </li>
+          </a>
           </ul>
       </div>
 
