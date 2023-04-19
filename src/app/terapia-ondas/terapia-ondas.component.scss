@@ -6,6 +6,13 @@
   align-items: flex-start;
   margin: 10px 5vw;
   padding-top: 50px;
+
+  button {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
 }
 
 .content-text h1 {

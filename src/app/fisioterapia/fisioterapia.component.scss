@@ -10,6 +10,13 @@
 
 .content-text {
   max-width: 60%;
+
+  button {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
 }
 
 .content-text h1 {
@@ -72,8 +79,16 @@
 .unidades {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 5rem;
+}
+
+.unidade:first-child {
+  margin-right: 7.5vw;
+}
+
+.unidade:last-child {
+  margin-left: 7.5vw;
 }
 
 .unidade {

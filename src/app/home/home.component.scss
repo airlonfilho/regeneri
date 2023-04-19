@@ -9,6 +9,13 @@
 
 .content .content-text {
   padding-top: 50px;
+
+  button {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
 }
 
 .content-text h1 {
@@ -68,7 +75,7 @@
 .unidades {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .unidade {
@@ -78,6 +85,15 @@
   border-radius: 20px;
   height: 220px;
   width: 300px;
+
+}
+
+.unidade:first-child {
+  margin-right: 7.5vw;
+}
+
+.unidade:last-child {
+  margin-left: 7.5vw;
 }
 
 .unidade h1 {

@@ -1,18 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   max-width: 100vw;
 }
 
-@font-face {
-  font-family: 'Caviar Dreams';
-  src: URL('./assets/fonts/Caviar-Dreams.ttf.eot') format('eot');
-  src: URL('./assets/fonts/Caviar-Dreams.ttf.woff') format('woff');
-}
 
 body {
-    font-family: 'Caviar Dreams', Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 //Colors
