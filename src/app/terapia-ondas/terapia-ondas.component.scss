@@ -95,7 +95,7 @@
   padding: 2vw;
   border: 1px solid $green-lite;
   border-radius: 20px;
-  height: 220px;
+  height: 250px;
   width: 300px;
 }
 
@@ -120,6 +120,7 @@
   .content {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
   }
 
   .content-img {
@@ -162,12 +163,17 @@
     }
     }
   }
-
-
-
   .unidades {
     margin-left: 0px;
     display: flex;
     justify-content: center;
+  }
+
+  .unidade img {
+    margin-left: 250px;
+  }
+
+  .unidade {
+    height: 270px;
   }
 }

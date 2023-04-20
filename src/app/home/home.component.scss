@@ -83,7 +83,7 @@
   padding: 2vw;
   border: 1px solid $green-lite;
   border-radius: 20px;
-  height: 220px;
+  height: 250px;
   width: 300px;
 
 }
@@ -109,12 +109,18 @@
 
 .unidade img {
   width: 32px;
-  margin-top: 10px;
-  margin-left: 250px;
+  margin-left: 280px;
 }
 
+.last-image{
+  margin-top: 40px;
+}
 
 @media only screen and (max-width: 600px) {
+  .content, .quem-somos {
+    text-align: center;
+  }
+
   .content, .quem-somos, .unidades {
     display: block;
     padding-left: 24px;
@@ -181,5 +187,13 @@
     padding: 20px 40px;
     margin-top: 30px;
     width: 100%;
+  }
+
+  .unidade:first-child {
+    margin-right: 0px;
+  }
+  
+  .unidade:last-child {
+    margin-left: 0px;
   }
 }

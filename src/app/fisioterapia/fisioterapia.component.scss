@@ -96,7 +96,7 @@
   padding: 2vw;
   border: 1px solid $green-lite;
   border-radius: 20px;
-  height: 220px;
+  height: 250px;
   width: 300px;
 }
 
@@ -113,14 +113,18 @@
 
 .unidade img {
   width: 32px;
-  margin-top: 10px;
-  margin-left: 250px;
+  margin-left: 280px;
+}
+
+.last-image{
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 600px) {
   .content {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
   }
 
   .content-img {
@@ -174,5 +178,21 @@
     display: flex;
     flex-direction: column;
     margin-top: 200px;
+  }
+
+  .unidade img {
+    margin-left: 250px;
+  }
+
+  .last-image {
+    margin-top: 10px;
+  }
+
+  .unidade:first-child {
+    margin-right: 0px;
+  }
+  
+  .unidade:last-child {
+    margin-left: 0px;
   }
 }
