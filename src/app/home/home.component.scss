@@ -1,5 +1,60 @@
 @import './../../styles.scss';
 
+.footer {
+  background-color: $orange;
+  color: $text-white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.content-footer {
+  display: flex;
+}
+
+.sociais {
+  display: flex;
+  margin-left: 5vw;
+}
+
+.sociais img {
+  margin-left: 10px;
+  width: 20px;
+}
+
+p {
+
+}
+
+b {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .footer {
+    height: 12rem;
+    text-align: center;
+  }
+
+  .footer .content{
+    display: block;
+    padding: 50px 24px 0px 24px;
+  }
+
+
+  .sociais {
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+  }
+
+}
+
+
 .content {
   display: flex;
   justify-content: space-between;
@@ -83,7 +138,7 @@
   padding: 2vw;
   border: 1px solid $green-lite;
   border-radius: 20px;
-  height: 250px;
+  height: 280px;
   width: 300px;
 
 }
@@ -110,10 +165,6 @@
 .unidade img {
   width: 32px;
   margin-left: 280px;
-}
-
-.last-image{
-  margin-top: 40px;
 }
 
 @media only screen and (max-width: 600px) {
