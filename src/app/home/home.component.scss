@@ -24,36 +24,9 @@
   width: 20px;
 }
 
-p {
-
-}
-
 b {
   font-weight: 700;
 }
-
-@media only screen and (max-width: 600px) {
-
-  .footer {
-    height: 12rem;
-    text-align: center;
-  }
-
-  .footer .content{
-    display: block;
-    padding: 50px 24px 0px 24px;
-  }
-
-
-  .sociais {
-    align-content: center;
-    margin-top: 20px;
-    margin-left: 40%;
-    margin-bottom: 20px;
-  }
-
-}
-
 
 .content {
   display: flex;
@@ -227,6 +200,7 @@ b {
 
   .unidade {
     padding: 15px 20px;
+    height: 300px;
   }
 
   .unidade img {
@@ -246,5 +220,25 @@ b {
   
   .unidade:last-child {
     margin-left: 0px;
+  }
+
+  
+  .footer {
+    height: 12rem;
+    text-align: center;
+  }
+
+  .content-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 24px 0px 24px;
+  }
+
+
+  .sociais {
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 20px;
   }
 }
