@@ -167,8 +167,9 @@ b {
   .content {
     display: flex;
     flex-direction: column;
-    padding-left: 12px;
     padding-bottom: 48px;
+    padding-left: 0px;
+    align-items: center;
   }
 
   .content .content-img {
@@ -196,6 +197,9 @@ b {
   .unidades {
     margin-top: 200px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
   }
 
   .unidade {
